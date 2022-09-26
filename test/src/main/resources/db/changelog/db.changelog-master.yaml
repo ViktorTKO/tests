@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: postgres
+      changes:
+        - sqlFile:
+            dbms: "postgresql"
+            path:  db/changelog/scripts/test.sql
+
